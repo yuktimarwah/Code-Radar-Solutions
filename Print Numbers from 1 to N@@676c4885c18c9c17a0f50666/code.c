@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    float N;
-    scanf("%f",&N);
-    for(float i = 1;i<=N;i++){
-        printf("%f",i);
+    int N;
+    scanf("%d",&N);
+    for(int i = 1;i<=N;i++){
+        printf("%d",i);
         if(i !=N-1){
             printf(" ");
         }
