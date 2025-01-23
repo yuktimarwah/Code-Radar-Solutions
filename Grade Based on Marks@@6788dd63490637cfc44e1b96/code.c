@@ -18,8 +18,4 @@ int main(){
         printf("F");
     }
     return 0;
-    }    printf()
-    }
-
-    }
 }
