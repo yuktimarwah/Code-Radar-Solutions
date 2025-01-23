@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int N;
-    scanf("%d",&N);
+    float N;
+    scanf("%f",&N);
     for(float i = 1;i<=N;i++){
         printf("%f",i);
         if(i !=N-1){
