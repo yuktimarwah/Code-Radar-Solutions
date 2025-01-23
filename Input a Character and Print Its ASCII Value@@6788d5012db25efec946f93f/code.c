@@ -2,6 +2,6 @@
 int main(){
     char character;
     scanf("%c",&character);
-    print("%c",character);
+    printf("%c",character);
     return 0;
 }
