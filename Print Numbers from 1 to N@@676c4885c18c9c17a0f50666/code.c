@@ -6,6 +6,6 @@ int main(){
         printf("%d",i);
         printf(" ");
         }
-    }
+    
     return 0;
 }
