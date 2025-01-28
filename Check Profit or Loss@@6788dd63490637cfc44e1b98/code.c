@@ -2,7 +2,7 @@
 int main(){
     int c,s;
     scanf("%d %d",&c,&s);
-    if(c=s){
+    if(c==s){
         printf("No Profit No Loss");
     }
     else if(c>s){
