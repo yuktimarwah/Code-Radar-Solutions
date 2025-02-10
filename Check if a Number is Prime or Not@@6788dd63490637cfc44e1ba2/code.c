@@ -13,11 +13,6 @@ int main(){
             return 0;
         }
     }
-    if(count == 0){
-        printf("Prime");
-    }
-    else{
-        printf("Not Prime");
-    }
+    printf("Prime");
     return 0;
 }
