@@ -13,7 +13,7 @@ int main(){
             break;
         }
     }
-    if(count == 0){
+    if(count == 2){
         printf("Prime");
     }
     else{
