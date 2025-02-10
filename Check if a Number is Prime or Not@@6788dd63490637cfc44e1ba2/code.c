@@ -4,7 +4,8 @@ int main(){
     int a,count=0;
     scanf("%d",&a);
     if(a==0||a==1){
-        count = 1;
+        printf("Not Prime");
+        return 0;
     }
     for(int i =2;i<=sqrt(a);i++){
         if(a%i==0){
