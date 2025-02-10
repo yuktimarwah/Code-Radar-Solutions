@@ -7,7 +7,7 @@ int main(){
         count = 1;
     }
     for(int i =2;i<=sqrt(a);i++){
-        if(n%i==0){
+        if(a%i==0){
             count++;
             break;
         }
