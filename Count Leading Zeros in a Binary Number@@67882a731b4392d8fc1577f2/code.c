@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&num);
     msb = 1<<(Int_Size-1);
     count =0;
-    for(int i;i<Int_Size;i++){
+    for(int i=0;i<Int_Size;i++){
         if(msb&(num<<i)){
             break;
         }
