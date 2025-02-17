@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    unsigned int a,b,result;
-    scanf("%u %u",&a,&b);
+    int a,b,result;
+    scanf("%d %d",&a,&b);
     result = a^b;
-    printf("%u",result);
+    printf("%d",result);
     return 0;
 }
