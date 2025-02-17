@@ -1,9 +1,9 @@
 #include <stdio.h>
 #define INT_SIZE sizeof(int)*8
 int main(){
-    int num;count;
+    int num;
     scanf("%d",&num);
-    count = 0;
+    int count = 0;
     for(int i =0;i<INT_SIZE;i++){
         if(1&(num>>i)){
             break;
