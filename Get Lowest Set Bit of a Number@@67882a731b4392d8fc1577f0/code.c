@@ -10,7 +10,7 @@ int main(){
             break;
         }
     }
-    print("%d",order);
+    printf("%d",order);
 
     return 0;
 }
