@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    unsigned int a;
-    scanf("%u",&a);
+    int a;
+    scanf("%d",&a);
     if(a&1){
         printf("Set");
     }
