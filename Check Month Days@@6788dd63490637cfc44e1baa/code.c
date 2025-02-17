@@ -1,6 +1,16 @@
 #include <stdio.h>
 int main(){
-    int n;
-    
+    int a;
+    scanf("%d",&a);
+    switch(a){
+        case 1:
+        printf("31");
+        break;
+        case 2:
+        printf("28");
+        break;
+        default:
+        printf("Invalid month");
+    }
     return 0;
 }
