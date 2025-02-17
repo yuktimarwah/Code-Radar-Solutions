@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&num);
     int order=0;
     for(int i = 0;i< INT_SIZE;i++){
-        if(1&(num<<i)){
+        if(1&(num>>i)){
             order=i;
             break;
         }
