@@ -6,7 +6,7 @@ int main(){
     msb = 1<<(INT_SIZE-1);
     count = 0;
     for(int i =0;i<INT_SIZE;i++){
-        if(msb&(num>>i)){
+        if(1&(num>>i)){
             break;
         }
         count++;
