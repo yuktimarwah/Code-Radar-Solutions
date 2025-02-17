@@ -3,7 +3,6 @@
 int main(){
     int num,msb;count;
     scanf("%d",&num);
-    msb = 1<<(INT_SIZE-1);
     count = 0;
     for(int i =0;i<INT_SIZE;i++){
         if(1&(num>>i)){
