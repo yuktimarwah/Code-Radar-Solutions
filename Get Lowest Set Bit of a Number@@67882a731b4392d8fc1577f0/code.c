@@ -3,7 +3,7 @@
 int main(){
     int num;
     scanf("%d",&num);
-    int order=0;
+    int order=INT_SIZE-1;
     for(int i = 0;i<=INT_SIZE;i++){
         if(1&(num<<i)){
             order=i;
