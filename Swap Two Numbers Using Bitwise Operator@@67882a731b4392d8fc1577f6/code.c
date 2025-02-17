@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    int a,b,x;
     scanf("%d %d",&a,&b);
-    printf("%d %d",b,a);
+    x = a^b;
+    a=x^b;
+    b=x^a;
+    printf("%d %d",a,b);
     return 0;
 }
