@@ -5,7 +5,7 @@ void swap(int *a,int *b){
     *b = temp;
 }
 
-int bubblesort(int arr[n],int n){
+int bubblesort(int arr[],int n){
     for(int i=0;i<n-1;i++){
         int swapped = 0;
         for(int j=0;j-i-1;j++){
