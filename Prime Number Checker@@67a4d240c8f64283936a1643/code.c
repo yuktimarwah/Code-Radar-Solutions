@@ -8,6 +8,7 @@ int main(){
         scanf("%d",&num);
         printf("%d\n",isprime(num));
     }
+}
     void isprime(n){
         if(n==0||n==1){
             return 0;
@@ -19,4 +20,3 @@ int main(){
         }
         return 1
     }
-}
