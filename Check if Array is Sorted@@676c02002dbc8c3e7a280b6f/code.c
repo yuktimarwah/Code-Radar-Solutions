@@ -15,10 +15,10 @@ int bubblesort(int arr[],int n){
             }
             }
             if (swapped==0){
-                return 0;
+                return 1;
         }
     }
-     return 1;
+     return 0;
 
 }
 
