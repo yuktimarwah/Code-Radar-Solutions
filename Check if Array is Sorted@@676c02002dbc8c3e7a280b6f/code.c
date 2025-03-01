@@ -12,7 +12,7 @@ bubblesort(int arr[n],int n){
                 swap(&arr[j],&arr[j+1]);
                 swapped =1
             }
-            if ()swapped==0){
+            if (swapped==0){
                 return 0;
             }
             return 1;
