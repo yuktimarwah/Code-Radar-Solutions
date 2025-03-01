@@ -13,12 +13,12 @@ int bubblesort(int arr[],int n){
                 swap(&arr[j],&arr[j+1]);
                 swapped =1;
             }
+            }
             if (swapped==0){
                 return 0;
-            }
-            return 1;
         }
     }
+     return 1;
 
 }
 
@@ -29,7 +29,7 @@ int main(){
     for(int i =0;i<n;i++){
     scanf("%d",&arr[i]);
     }
-    if(bubblesort(int arr[n],int n)){
+    if(bubblesort( arr, n)){
         printf("Sorted");
     }
     else{
