@@ -9,7 +9,6 @@ void swap(int *a,int *b){
     int temp = *a;
     *a = *b;
     *b = temp;
-    return 0;
 }
 void bubbleSort(int arr[],int n){
     for(int i=0;i<n-1,i++){
