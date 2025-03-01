@@ -9,7 +9,7 @@ int main(){
         printf("%d\n",isprime(num));
     }
 }
-    int isprime(n){
+    int isprime(int n){
         if(n==0||n==1){
             return 0;
         }
