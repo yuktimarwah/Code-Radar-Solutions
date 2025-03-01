@@ -7,6 +7,7 @@ int main(){
         int num;
         scanf("%d",&num);
         printf("%d\n",isprime(num));
+        return 0;
     }
 }
     int isprime(int n){
