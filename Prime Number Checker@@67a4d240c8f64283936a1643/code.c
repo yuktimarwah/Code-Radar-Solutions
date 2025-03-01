@@ -1,5 +1,5 @@
 #include <stdio.h>
-int isprime();
+int isprime(int n);
 int main(){
     int t;
     scanf("%d",&t);
