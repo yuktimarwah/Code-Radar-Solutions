@@ -1,5 +1,5 @@
 #include <stdio.h>
-void isprime();
+int isprime();
 int main(){
     int t;
     scanf("%d",&t);
@@ -9,7 +9,7 @@ int main(){
         printf("%d\n",isprime(num));
     }
 }
-    void isprime(n){
+    int isprime(n){
         if(n==0||n==1){
             return 0;
         }
