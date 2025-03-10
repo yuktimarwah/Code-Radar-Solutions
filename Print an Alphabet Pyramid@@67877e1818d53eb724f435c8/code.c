@@ -7,8 +7,8 @@ int main(){
         int d=a+1;
         char ch= (char)d;
         for(int j=1;j<=i;j++){
-            printf("%C",ch);
-            d++;
+            printf("%C ",ch);
+            a++;
 
         }
         printf("\n");
